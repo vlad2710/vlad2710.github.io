@@ -2,7 +2,8 @@
 	padding-top: 30px;
 	background: url(../img/header-background.jpg) no-repeat center top fixed;
 	background-size: cover;
-	height: 100vh;
+	min-height: 100vh;
+	padding-bottom: 30px;
 }
 
 .logo {
@@ -55,9 +56,16 @@
 	border-radius: 3px;
 }
 
-.offset {
-	margin-top: 236px;
+.offset__block{
+	height: 575px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
+
+/* .offset {
+	margin-top: 236px;
+} */
 
 .offset__title {
 	font-family: 'Roboto', sans-serif;
@@ -719,9 +727,9 @@
 		margin-right: auto;
 	}
 
-	.offset {
+	/* .offset {
 		margin-top: 236px;
-	}
+	} */
 
 	.features .feature__text {
 		width: auto;
@@ -892,9 +900,9 @@
 		text-align: center;
 	}
 
-	.offset{
+	/* .offset{
 		margin-top: 100px;
-	}
+	} */
 
 	.menu__item {
 		padding-top: 10px;
@@ -942,9 +950,9 @@
 		text-align: center;
 	}
 
-	.offset {
+	/* .offset {
 		margin-top: 80px;
-	}
+	} */
 
 	.offset__text {
 		width: auto;
